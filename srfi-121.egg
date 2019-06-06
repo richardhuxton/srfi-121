@@ -1,0 +1,10 @@
+((license "BSD")
+ (category data)
+ (dependencies srfi-4)
+ (test-dependencies test)
+ (author "John Cowan")
+ (maintainer "Jeremy Steward")
+ (synopsis "SRFI-121: Generators")
+ (components (extension srfi-121 (source "generators/generators.scm")))
+ )
+
